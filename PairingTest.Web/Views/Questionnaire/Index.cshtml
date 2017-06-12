@@ -1,0 +1,29 @@
+﻿@model PairingTest.Web.Models.QuestionnaireViewModel
+
+@{
+    ViewBag.Title = "Questionnaire home page";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>@Model.QuestionnaireTitle</h2>
+        </div>
+    </div>
+
+    @foreach (var question in Model.QuestionsText)
+    {
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="well well-lg">
+                    <p>@question</p>
+                    <div class="form-group">
+                        <label class="control-label" for="inputDefault">answer: </label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    }
+</div>
