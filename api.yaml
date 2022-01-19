@@ -5,7 +5,6 @@ metadata:
   description: Batman App
   tags:
     - dotnet
-    - 6.0
   links:
     - url: https://example.com/user
       title: Examples Users
