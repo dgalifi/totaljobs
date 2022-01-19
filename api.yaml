@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: batman-lookup
-  description: Artist Lookup
+  description: Batman Lookup
   tags:
     - dotnet
     - data
@@ -31,6 +31,6 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: team-a
-  system: artist-engagement-portal
+  owner: team-0
+  system: 1CD
   dependsOn: ['resource:artists-db']
