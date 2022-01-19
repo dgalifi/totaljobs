@@ -30,7 +30,7 @@ metadata:
       icon: alert
 spec:
   type: service
-  lifecycle: experimental
+  lifecycle: int-pat-live
   owner: team-0
   system: 1CD
   dependsOn: ['resource:artists-db']
