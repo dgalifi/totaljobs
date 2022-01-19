@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-0
+  description: team-0
+spec:
+  type: platform-team
+  profile:
+    displayName: Team 0
+    email: Team-0@stepstone.com
+    picture: https://ih1.redbubble.net/image.1501328129.0879/st,small,507x507-pad,600x600,f8f8f8.jpg
+  parent: ops
+  children: [backstage, other]
+  members: [jdoe]
